@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+.iconoPika{
+  width: 50px;
+}
+
+.active{
+  color: rgb(165, 165, 54);
+}
+
+.inactive{
+  color: black;
+}
+
+.pika{
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+}
+
+.pikaimg{
+  width: 800px;
+}
+
+.deteils{
+  margin-top: 100px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.back-arrow-icon {
+  font-size: 30px;
+  animation: bounce 0.5s infinite alternate; 
+}
+
+@keyframes bounce {
+  0% {
+    font-size: 30px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+
+.select{
+margin-left: 360px;
+}
+
+.pokemons{
+  margin-top: 250px;
+}
